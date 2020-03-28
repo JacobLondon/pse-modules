@@ -1,6 +1,6 @@
 #pragma once
 
-#include "pse.hpp"
+#include "../pse.hpp"
 
 namespace Modules {
 
@@ -12,8 +12,5 @@ void rogue_update(pse::Context& ctx);
 
 void trace_setup(pse::Context& ctx);
 void trace_update(pse::Context& ctx);
-
-void mil_setup(pse::Context& ctx);
-void mil_update(pse::Context& ctx);
 
 } // pse
